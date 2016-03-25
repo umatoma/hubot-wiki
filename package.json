@@ -1,0 +1,32 @@
+{
+  "name": "hubot-wiki",
+  "description": "A hubot script for searching wikipedia",
+  "version": "0.0.1",
+  "author": "umatoma <umatomakun@gmail.com>",
+  "license": "MIT",
+  "keywords": ["hubot","hubot-scripts"],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/umatoma/hubot-wiki.git"
+  },
+  "bugs": {
+    "url": "https://github.com/umatoma/hubot-wiki/issues"
+  },
+  "dependencies": {
+    "coffee-script": "~1.6"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "chai": "*",
+    "sinon-chai": "*",
+    "sinon": "*",
+    "grunt-mocha-test": "~0.7.0",
+    "grunt-release": "~0.6.0",
+    "matchdep": "~0.1.2",
+    "grunt-contrib-watch": "~0.5.3"
+  },
+  "main": "index.coffee",
+  "scripts": {
+    "test": "grunt test"
+  }
+}
