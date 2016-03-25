@@ -8,7 +8,7 @@ See [`src/wiki.coffee`](src/wiki.coffee) for full documentation.
 
 In hubot project repo, run:
 
-`npm install hubot-wiki --save`
+`npm install git://github.com/umatoma/hubot-wiki.git --save`
 
 Then add **hubot-wiki** to your `external-scripts.json`:
 
